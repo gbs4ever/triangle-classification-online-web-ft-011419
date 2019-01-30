@@ -19,10 +19,10 @@ class Triangle
 
 
 
-    
 
 
 
-  
+
+
 
 end
