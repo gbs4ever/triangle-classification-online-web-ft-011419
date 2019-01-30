@@ -7,11 +7,11 @@ class Triangle
   end
 
   def kind
-  if   @a!==0|| a+b > c
+  if   @a ==0|| @a+@b > @c
 
     raise TriangleError
 
-  elsif   @a == @b &&  @b==@c
+  elsif  @a == @b &&  @b==@c
       :equilateral
     elsif
       @a == @b || @b == @c || @a == @c
