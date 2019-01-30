@@ -7,7 +7,19 @@ class Triangle
   end
 
   def kind
+    if  @a == @b &&  @b == @c
+      :equilateral
+    elsif
+      @a !== @b && @b !== @c && @a !== @c
+      :scalene
+    else
+      :isosceles
+    end
+  end
 
+
+
+    :scalene
 
   end
 
