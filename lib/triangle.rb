@@ -13,21 +13,16 @@ class Triangle
       @a == @b || @b == @c || @a == @c
     :isosceles
     else
-
         :scalene
     end
   end
 
 
 
-    :scalene
-
-  end
+    
 
 
 
-    class TriangleError < StandardError
-    # triangle error code
-  end
+  
 
 end
