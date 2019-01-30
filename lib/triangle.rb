@@ -1,6 +1,12 @@
 class Triangle
-  def initialize(argument)
+  attr_accessor :a :b :c
+  def initialize(a,b,c)
     @argument = argument
+  end
+
+  def kind
+
+
   end
 
 
