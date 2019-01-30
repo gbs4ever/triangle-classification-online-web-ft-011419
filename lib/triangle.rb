@@ -1,3 +1,12 @@
 class Triangle
-  # write code here
+  def initialize(argument)
+    @argument = argument
+  end
+
+
+
+    class TriangleError < StandardError
+    # triangle error code
+  end
+
 end
